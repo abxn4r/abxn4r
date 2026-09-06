@@ -113,6 +113,34 @@
 
 <br/>
 
+<h2 align="center">🛰️ <em>Live Orbital Telemetry & Deep Space Feed</em></h2>
+
+<!-- ORBITAL_TELEMETRY:START -->
+<div align="center">
+  <p><b>Today's Cosmic Observation: Pluto in Enhanced Color (2026-09-06)</b></p>
+  <img src="https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg" width="100%" alt="Pluto in Enhanced Color" style="border-radius: 8px; max-height: 420px; object-fit: cover;" />
+  <p><sub><i>Credits: NASA / Public Domain</i></sub></p>
+</div>
+
+<details>
+<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>79.8 ms</code>)</summary>
+
+```text
+ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
+───────────────────────────────────────────────────────────────────────────
+Cloudflare DNS         | 1.1.1.1          |  26.60 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |  19.25 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |  78.24 ms | █████░░░░░ | ONLINE
+GitHub Core            | github.com       | 143.88 ms | █████████░ | ONLINE
+AWS Cloud              | aws.amazon.com   | 131.03 ms | ████████░░ | ONLINE
+───────────────────────────────────────────────────────────────────────────
+Last probe: 2026-09-06 13:58 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 79.8 ms
+```
+</details>
+<!-- ORBITAL_TELEMETRY:END -->
+
+<br/>
+
 <!-- GitHub Statistics & Streaks -->
 <h2 align="center">📈 <em>Statistics</em></h2>
 

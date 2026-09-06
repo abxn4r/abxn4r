@@ -1,0 +1,34 @@
+name: Daily Profile Telemetry Update
+
+on:
+  schedule:
+    # Runs at 06:00 UTC daily (11:30 AM IST)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Profile Telemetry Updater
+        run: |
+          python scripts/update_profile.py
+
+      - name: Commit and Push to Profile
+        run: |
+          git config --global user.name "Abeer (Orbital Canary)"
+          git config --global user.email "abeerhakim77@gmail.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "telemetry(profile): daily deep space observation and canary update $(date +'%Y-%m-%d')"
+          git push
