@@ -123,18 +123,18 @@
 </div>
 
 <details>
-<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>79.8 ms</code>)</summary>
+<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>29.93 ms</code>)</summary>
 
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |  26.60 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  19.25 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  78.24 ms | █████░░░░░ | ONLINE
-GitHub Core            | github.com       | 143.88 ms | █████████░ | ONLINE
-AWS Cloud              | aws.amazon.com   | 131.03 ms | ████████░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   2.54 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.60 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.33 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   5.13 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   | 139.05 ms | █████████░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Last probe: 2026-09-06 13:58 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 79.8 ms
+Last probe: 2026-09-06 14:00 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 29.93 ms
 ```
 </details>
 <!-- ORBITAL_TELEMETRY:END -->
