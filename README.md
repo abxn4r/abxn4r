@@ -117,24 +117,24 @@
 
 <!-- ORBITAL_TELEMETRY:START -->
 <div align="center">
-  <p><b>Today's Cosmic Observation: Hubble: Decagon Around Saturn's South Pole (2026-09-08)</b></p>
-  <img src="https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg" width="100%" alt="Hubble: Decagon Around Saturn's South Pole" style="border-radius: 8px; max-height: 420px; object-fit: cover;" />
+  <p><b>Today's Cosmic Observation: Witness XZ Andromedae Wink (2026-09-09)</b></p>
+  <p><a href="https://apod.nasa.gov/apod/image/2609/xz_and.mp4" target="_blank">▶️ Watch Cosmic Video (Witness XZ Andromedae Wink)</a></p>
   <p><sub><i>Credits: NASA / Public Domain</i></sub></p>
 </div>
 
 <details>
-<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>51.31 ms</code>)</summary>
+<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>22.95 ms</code>)</summary>
 
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |  17.97 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  15.96 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   3.79 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  49.52 ms | ███░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   | 169.32 ms | ██████████ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   8.72 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   2.23 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   8.64 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  51.79 ms | ███░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  43.38 ms | ██░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Last probe: 2026-09-08 10:11 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 51.31 ms
+Last probe: 2026-09-09 10:15 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 22.95 ms
 ```
 </details>
 <!-- ORBITAL_TELEMETRY:END -->
