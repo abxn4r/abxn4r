@@ -117,24 +117,24 @@
 
 <!-- ORBITAL_TELEMETRY:START -->
 <div align="center">
-  <p><b>Today's Cosmic Observation: Apollo 11: Catching Some Sun (2026-09-12)</b></p>
-  <img src="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" width="100%" alt="Apollo 11: Catching Some Sun" style="border-radius: 8px; max-height: 420px; object-fit: cover;" />
-  <p><sub><i>Credits: NASA / Public Domain</i></sub></p>
+  <p><b>Today's Cosmic Observation: Comet NEOWISE Rising over the Adriatic Sea (2026-09-13)</b></p>
+  <p><a href="https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4" target="_blank">▶️ Watch Cosmic Video (Comet NEOWISE Rising over the Adriatic Sea)</a></p>
+  <p><sub><i>Credits: Paolo Girotti</i></sub></p>
 </div>
 
 <details>
-<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>29.86 ms</code>)</summary>
+<summary>📡 <b>Live Global Backbone Latency Canary</b> (Avg RTT: <code>9.71 ms</code>)</summary>
 
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |  13.36 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  12.27 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  11.42 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  55.60 ms | ███░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  56.67 ms | ███░░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   5.90 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   5.87 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   5.79 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   7.96 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  23.02 ms | █░░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Last probe: 2026-09-12 09:41 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 29.86 ms
+Last probe: 2026-09-13 10:43 UTC • Runner: GitHub Actions (Ubuntu) • Avg: 9.71 ms
 ```
 </details>
 <!-- ORBITAL_TELEMETRY:END -->
