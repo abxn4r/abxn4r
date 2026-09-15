@@ -9,16 +9,16 @@
   <h1><code>abxn4r</code></h1>
 
   <p>
-    <i>building in the dark.</i>
+    <i>it does not fill the void.</i>
   </p>
 
   <br/>
 
-  <code>[ status: listening to the void ]</code>
+  <code>[ status: wanted to commit but she put me in her .gitignore xd ]</code>
 
   <br/><br/>
 
-  <sub>"The quieter you become, the more you are able to hear."</sub>
+  <sub>"lolxd69"</sub>
 
   <br/><br/>
 
