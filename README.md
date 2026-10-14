@@ -23,7 +23,7 @@
   <br/><br/>
 
 <!-- PULSE:START -->
-<sub><code>signal: nominal</code> • <code>ping: 15.6ms</code> • <code>pulse: 2026-10-13 13:03 UTC</code></sub>
+<sub><code>signal: nominal</code> • <code>ping: 2.0ms</code> • <code>pulse: 2026-10-14 10:44 UTC</code></sub>
 <!-- PULSE:END -->
 
 </div>
