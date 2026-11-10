@@ -1,9 +1,6 @@
-name: Daily Profile Telemetry Update
+name: Profile Telemetry (Manual Only)
 
 on:
-  schedule:
-    # Runs at 06:00 UTC daily (11:30 AM IST)
-    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
